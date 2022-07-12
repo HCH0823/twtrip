@@ -30,6 +30,7 @@ LINE_CHANNEL_SECRET = 'a7c994f2b3939e1cc230cb91fc97c6b8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['twtrip.herokuapp.com/']
 ALLOWED_HOSTS = ['*']
 ALLOWED_HOSTS = ['7e97-60-245-120-172.jp.ngrok.io']
 
@@ -47,6 +48,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
