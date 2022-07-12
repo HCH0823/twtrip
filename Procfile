@@ -1,1 +1,1 @@
-web: gunicorn urexpenses.wsgi
+web: python manage.py
