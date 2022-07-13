@@ -1,3 +1,4 @@
+djongo
 flask
 numpy
 beautifulsoup4
