@@ -5,7 +5,7 @@ from linebot import LineBotApi
 from linebot.models import TextSendMessage, TemplateSendMessage, ConfirmTemplate, MessageTemplateAction, ButtonsTemplate, PostbackTemplateAction, URITemplateAction, CarouselTemplate, CarouselColumn, ImageCarouselTemplate, ImageCarouselColumn
 
 line_bot_api = LineBotApi('vswYITakGKDqTeBRGYd/647D84k935oXZKiUSO9hmmu6vZAx4nyRwo73vyalA1xo13NlUg59VXRkP55eFdiId+bLvZNKZUOsQWms8TUwppxWSZwlPktYLepUDDaDiMrW69zzHSWPPqFSHb5RPL1mjwdB04t89/1O/w1cDnyilFU=')
-baseurl = 'https://b21a-60-245-120-172.jp.ngrok.io/static/'
+baseurl = 'https://twtrip.herokuapp.com/static/'
 
 
 
